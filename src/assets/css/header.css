@@ -1,0 +1,25 @@
+.hd-main{
+    width:100vw;
+    position:fixed;
+    background-color:black;
+    top:0px;
+    z-index:1000;
+}
+.header-main>a{
+    text-decoration:none;
+    font-weight:600;
+    color:white;
+    transition-duration:1s;
+    cursor:pointer;
+}
+.header-main>a:hover{
+    color:var(--main);
+}
+.header-main{
+    padding:3vh;
+    border-radius:5px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:2rem;
+}

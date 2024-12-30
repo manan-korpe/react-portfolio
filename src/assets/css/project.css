@@ -1,0 +1,42 @@
+.project-main{
+    margin-top:80px;
+    width:90vw;
+    height:80vh;
+    padding:0vw 5vw;
+    display:flex;
+    align-items:center;
+}
+.project-main h1{
+    color:var(--main);
+}
+.project-main-inner{
+    width:100%;
+    border:2px solid var(--main);
+    border-radius:5px;
+    padding:8vh 0px;
+    display:flex;
+    gap:5vw;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.description{
+    font-size:1.2vw;
+    width:50vw;
+    height:50%;
+}
+.project-main-inner>img{
+    width:400px;
+}
+.github-link{
+    color:var(--main);
+    border:1px solid var(--main);
+    padding:5px 10px;
+    border-radius:5px;
+    transition-duration:1s;
+}
+.github-link:hover{
+    color:white;
+    background-color:var(--main);
+    border:1px solid var(--main)
+}

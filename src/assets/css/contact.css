@@ -1,0 +1,28 @@
+.contact-main{
+    width:100vw;
+    height:80vh;
+    margin-top:80px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.contact-link{
+    font-size:20px;
+    color:var(--main);
+    width:60%;
+    padding:5vh;
+    margin-bottom:20px;
+    border:2px solid var(--main);
+    border-radius:5px;
+    display:flex;
+    gap:5vw;
+    align-items:Center;
+    transition-duration:1s;
+}
+.contact-link:hover{
+    scale:1.05;
+    color:white;
+    background-color:var(--main);
+    border:2px solid white;
+}

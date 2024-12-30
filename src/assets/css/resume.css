@@ -1,0 +1,38 @@
+.resume-main{
+    margin-top:70px;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.resume-main>h1{
+    color:var(--main);
+}
+.resume-main>img{
+    border:2px solid black;
+    border-radius:10px;
+    width:auto;
+    height:80vh;
+    transition-duration:1s;
+}
+.resume-main>img:hover{
+    border:2px solid var(--main)
+}
+
+.downlaod-resume{
+    display:block;
+    font-size:15px;
+    padding:10px 10px;
+    margin:20px 0px;
+    border-radius:5px;
+    border:2px solid var(--main);
+    background-color:transparent;
+    color:var(--main);
+    font-weight:600;
+    letter-spacing:1px;
+    transition-duration:1s;
+}
+.downlaod-resume:hover{
+    background-color:var(--main);
+    color:white;
+}
